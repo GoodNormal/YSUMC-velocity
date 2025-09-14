@@ -1,0 +1,6 @@
+/.github/
+cache/
+.git/
+libraries/
+logs/
+authlib-injector.log

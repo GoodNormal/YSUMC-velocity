@@ -1,0 +1,2 @@
+"D:\application\java21\bin\java.exe" -Xms512m -Xmx512m -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil -Dfile.encoding=UTF-8 -Duser.language=zh -Duser.country=CN -jar Velocity.jar nogui 
+pause
