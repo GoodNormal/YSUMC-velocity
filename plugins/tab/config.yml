@@ -13,7 +13,7 @@ header-footer:
       - ''
       - ''
       - <#e7e1d6>&l你的延迟:</#7e97ad>&a&l%player_ping%ms <#e7e1d6>&l你的运营商:</#7e97ad>%javascript_serviceprovider%
-        <#e7e1d6>&l目前玩家人数:</#7e97ad>&a&l%cmi_server_online%&r
+        <#e7e1d6>&l目前玩家人数:</#7e97ad>&a&l%server_online%&r
       - ''
       footer:
       - ''
@@ -21,7 +21,7 @@ header-footer:
       - 你现在所在的是:%javascript_servername% <#e7e1d6>今天是:</#7e97ad>&b&l%localtime_time_yyyy年mm月dd日kk:mm%
         <#7e97ad>今日<#e7e1d6>&l%ip2region_provincial%%ip2region_municipal%<#7e97ad>天气:&r%weather%
       - '<#e7e1d6>&l 社团官网</#7e97ad>: %animation:web% <#FF1493>社团QQ群:&r719798563'
-      
+
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
 tablist-name-formatting:
   enabled: true
