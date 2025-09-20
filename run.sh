@@ -63,7 +63,7 @@ echo -e "${YELLOW}按 Ctrl+C 停止服务器${NC}"
 echo "----------------------------------------"
 
 # 启动服务器并捕获退出码
-java -Xms1G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar velocity.jar
+java -Xms1G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil -jar velocity.jar
 exit_code=$?
 
 echo "----------------------------------------"
